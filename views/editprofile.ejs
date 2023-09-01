@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="css/editprofile.css">
+</head>
+
+<body>
+    <form action="/editprofile" method="POST">
+        <div class="container">
+            <h1>Edit Profile</h1>
+            <label for="profileImage">Profile Image:</label>
+            <input type="file" accept="image/*" id="profileImage" name="profileImage" class="edit-input">
+            <input type="file" accept="image/*" class="edit-input" id="image-upload" />
+            <input type="text" class="edit-input" placeholder="Name">
+            <input type="email" class="edit-input" placeholder="Email">
+            <input type="tel" class="edit-input" placeholder="Contact Number">
+            <input type="text" class="edit-input" placeholder="Occupation">
+            <button class="edit-button" id="save-button">Save</button>
+        </div>
+    </form>
+</body>
+
+</html>
